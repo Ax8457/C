@@ -216,7 +216,6 @@ int main(int argc, char* argv[]){
 	char * ascii_key = binary_to_string(res);
 	printf("Key converted to ASCII: %s\n", ascii_key);
     	
-    	
     	//decyrpt BMP image
     	printf("Attemping to decrypt file with the retreived key ['%s']\n",ascii_key);
     	unsigned char * image_data = malloc(file_size);
