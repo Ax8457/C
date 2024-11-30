@@ -4,7 +4,7 @@
 #include <openssl/md5.h>
 #include <openssl/evp.h>
 /*
-	This script is exactly the same as provided in the link below, but with a different md5_vector function and different crypto libs (openssl versus CryptoAPI) so that it can be compiled on Unix-based OS using :
+	This script is exactly the same as provided in the link below, but with a different md5_vector function and different crypto libs (openssl versus CryptoAPI) usage so that it can be compiled on Unix-based OS using :
 	gcc -o script script.c -lssl -lcrypto
 	Source : https://wifininjas.net/2019/08/23/wn-blog-012-can-you-crack-802-1x-wpa2-enterprise-wireless-data/
 */
