@@ -27,7 +27,7 @@ typedef struct {
 char* extract_BMPheaders(FILE* bmpFile, size_t headerLen){
 	
 	// list of name and size corelated to fields to complete structs 
-	const char *headerFields[] = { //14 fields for 54 bytes
+	const char *headerFields[] = { //15 fields for 54 bytes
         "Identifier", "FileSize", "Reserved", "DataOffset", "HeaderSize",
         "Width", "Height", "Planes", "BitsPerPixels", "Compression",
         "BitmapDataSize", "HResolution", "VResolution", "Colors", "ImportantColors"
