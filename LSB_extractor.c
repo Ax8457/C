@@ -1,6 +1,5 @@
 /* 
 	Tool developed during CTF  
-	Docu : https://www.fil.univ-lille.fr/~sedoglav/C/steganographie.pdf
 */
 #include <stdio.h>
 #include <stdlib.h>
